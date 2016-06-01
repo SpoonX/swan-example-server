@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "grunt"  : false,
+    "views"  : false,
+    "session": false,
+    "csrf"   : false,
+    "i18n"   : false,
+    "sockets": false,
+    "pubsub" : false
+  },
+  "generators": {
+    "modules": {}
+  }
+}

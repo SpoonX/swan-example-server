@@ -1,0 +1,29 @@
+{
+  "name": "aurelia-example-server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "API for TODO example",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "include-all": "~0.1.6",
+    "jsonwebtoken": "^6.1.1",
+    "rc": "1.0.1",
+    "request-helpers": "^2.1.0",
+    "sails": "~0.12.1",
+    "sails-disk": "~0.10.9",
+    "sails-hook-authorization": "0.0.1",
+    "sails-mysql": "^0.12.1"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rwoverdijk/aurelia-example-server.git"
+  },
+  "author": "rwoverdijk",
+  "license": ""
+}
