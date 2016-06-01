@@ -2,6 +2,9 @@
 
 a [Sails](http://sailsjs.org) application
 
+## Installing
+For installation, follow the instructions on the [project repository](https://github.com/SpoonX/aurelia-todo).
+
 ## Create a user
 To log in to the example, you'll have to create a user.
 
