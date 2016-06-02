@@ -12,7 +12,7 @@
     "request-helpers": "^2.1.0",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",
-    "sails-hook-authorization": "0.0.1",
+    "sails-hook-authorization": "0.0.3",
     "sails-mysql": "^0.12.1"
   },
   "scripts": {
