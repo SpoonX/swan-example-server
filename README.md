@@ -1,6 +1,6 @@
 # aurelia-todo-server
 
-a [Sails](http://sailsjs.org) application
+A [Sails](http://sailsjs.org) application for [aurelia-todo](https://github.com/SpoonX/aurelia-todo).
 
 ## Installing
 For installation, follow the instructions on the [project repository](https://github.com/SpoonX/aurelia-todo).
@@ -18,3 +18,6 @@ Make a `POST` request to `http://127.0.0.1:1337/auth/signup` with the following 
 
 - username
 - password
+
+## What
+Aurelia-todo-server is part of an example project to demonstrate several high-level components provided by SpoonX. For more info go to the [project repository](https://github.com/SpoonX/aurelia-todo).

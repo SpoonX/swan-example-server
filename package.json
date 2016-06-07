@@ -1,9 +1,18 @@
 {
-  "name": "aurelia-example-server",
-  "private": true,
-  "version": "0.0.0",
-  "description": "API for TODO example",
-  "keywords": [],
+  "name": "aurelia-todo-server",
+  "version": "0.0.1",
+  "description": "An example project to demonstrate several high-level components provided by SpoonX.",
+  "keywords": [
+    "aurelia",
+    "todo",
+    "spoonx"
+  ],
+  "homepage": "http://spoonx.nl",
+  "bugs": {
+    "url": "https://github.com/spoonx/aurelia-todo-server/issues"
+  },
+  "author": "RWOverdijk <wesley@spoonx.nl> (http://spoonx.nl/)",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.6",
     "include-all": "~0.1.6",
@@ -22,8 +31,6 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rwoverdijk/aurelia-example-server.git"
-  },
-  "author": "rwoverdijk",
-  "license": ""
+    "url": "git://github.com/spoonx/aurelia-todo-server.git"
+  }
 }
