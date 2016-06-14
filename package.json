@@ -1,9 +1,18 @@
 {
   "name": "swan-example-server",
-  "private": true,
-  "version": "0.0.0",
-  "description": "API for swan example",
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "An example project to demonstrate several high-level components provided by SpoonX.",
+  "keywords": [
+    "aurelia",
+    "todo",
+    "spoonx"
+  ],
+  "homepage": "http://spoonx.nl",
+  "bugs": {
+    "url": "https://github.com/spoonx/swan-example-server/issues"
+  },
+  "author": "RWOverdijk <wesley@spoonx.nl> (http://spoonx.nl/)",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.6",
     "include-all": "~0.1.6",
@@ -22,8 +31,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rwoverdijk/swan-example-server.git"
+    "url": "git://github.com/spoonx/swan-example-server.git"
   },
-  "author": "rwoverdijk",
+  "author": "rwoverdijk <wesley@spoonx.nl>",
   "license": ""
 }
