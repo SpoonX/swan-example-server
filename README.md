@@ -1,9 +1,9 @@
-# aurelia-todo-server
+# swan-example-server
 
 A [Sails](http://sailsjs.org) application for [aurelia-todo](https://github.com/SpoonX/aurelia-todo).
 
 ## Installing
-For installation, follow the instructions on the [project repository](https://github.com/SpoonX/aurelia-todo).
+For installation, follow the instructions on the [project repository](https://github.com/SpoonX/swan-example).
 
 ## Create a user
 To log in to the example, you'll have to create a user.
