@@ -32,7 +32,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/spoonx/swan-example-server.git"
-  },
-  "author": "rwoverdijk <wesley@spoonx.nl>",
-  "license": ""
+  }
 }
