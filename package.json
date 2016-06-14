@@ -1,8 +1,8 @@
 {
-  "name": "aurelia-example-server",
+  "name": "swan-example-server",
   "private": true,
   "version": "0.0.0",
-  "description": "API for TODO example",
+  "description": "API for swan example",
   "keywords": [],
   "dependencies": {
     "bcrypt": "^0.8.6",
@@ -22,7 +22,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rwoverdijk/aurelia-example-server.git"
+    "url": "git://github.com/rwoverdijk/swan-example-server.git"
   },
   "author": "rwoverdijk",
   "license": ""
