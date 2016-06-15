@@ -1,6 +1,6 @@
 {
   "name": "swan-example-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An example project to demonstrate several high-level components provided by SpoonX.",
   "keywords": [
     "aurelia",
