@@ -35,6 +35,9 @@ module.exports.policies = {
   },
   AuthController: {
     login: true
+  },
+  CountController: {
+    count: ['verifyToken', 'ensureToken', 'setOwner']
   }
 
   /***************************************************************************
