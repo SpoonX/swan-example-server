@@ -194,22 +194,6 @@
     ],
     "user": [
       {
-        "username": "demo",
-        "email": null,
-        "password": "$2a$10$XhI9XWG9kEeylSddpgdzPuwpkVsK60n9MXv1KxOYtFgKEl4pOl3oO",
-        "createdAt": "2016-06-01T14:07:17.372Z",
-        "updatedAt": "2016-06-01T14:08:41.333Z",
-        "id": 1
-      },
-      {
-        "username": "user",
-        "email": null,
-        "password": "$2a$10$HpHYS5JbHJen43r0dRk96OJzpwR2Dkp.5AK90usUDihzZE2io6sb.",
-        "createdAt": "2016-06-01T14:12:31.094Z",
-        "updatedAt": "2016-06-01T14:12:31.094Z",
-        "id": 2
-      },
-      {
         "username": "example",
         "email": null,
         "password": "$2a$10$Zy.D1BuzkOvzyhGHhlw4MeaADmtKyyUwaYkpg8VhYKxA33tX/XDhW",
