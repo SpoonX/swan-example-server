@@ -1,0 +1,312 @@
+{
+  "data": {
+    "list": [
+      {
+        "name": "Foo",
+        "user": 1,
+        "createdAt": "2016-06-01T14:08:36.401Z",
+        "updatedAt": "2016-06-07T12:53:21.955Z",
+        "id": 1
+      },
+      {
+        "name": "List 1",
+        "user": 3,
+        "createdAt": "2016-07-27T13:20:58.609Z",
+        "updatedAt": "2016-07-27T13:21:27.934Z",
+        "id": 2
+      },
+      {
+        "name": "List 2",
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:05.247Z",
+        "updatedAt": "2016-07-27T13:21:59.860Z",
+        "id": 3
+      },
+      {
+        "name": "List 3",
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:11.434Z",
+        "updatedAt": "2016-07-27T13:22:12.895Z",
+        "id": 4
+      },
+      {
+        "name": "List 4",
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:15.029Z",
+        "updatedAt": "2016-07-27T13:22:26.842Z",
+        "id": 5
+      }
+    ],
+    "todo": [
+      {
+        "todo": "bar",
+        "done": false,
+        "user": 1,
+        "createdAt": "2016-06-01T14:08:38.381Z",
+        "updatedAt": "2016-06-07T12:53:19.581Z",
+        "id": 1,
+        "list": 1
+      },
+      {
+        "todo": "bar",
+        "done": false,
+        "user": 1,
+        "createdAt": "2016-06-01T14:08:39.987Z",
+        "updatedAt": "2016-06-01T14:08:41.426Z",
+        "id": 2,
+        "list": null
+      },
+      {
+        "todo": "pojhbvc",
+        "done": false,
+        "user": 1,
+        "createdAt": "2016-06-07T12:53:21.869Z",
+        "updatedAt": "2016-06-07T12:53:21.959Z",
+        "id": 3,
+        "list": 1
+      },
+      {
+        "todo": "Stuff",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:21.240Z",
+        "updatedAt": "2016-07-27T13:21:21.339Z",
+        "id": 4,
+        "list": 2
+      },
+      {
+        "todo": "Other stuff",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:24.414Z",
+        "updatedAt": "2016-07-27T13:21:24.511Z",
+        "id": 5,
+        "list": 2
+      },
+      {
+        "todo": "Buy a cake",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:27.851Z",
+        "updatedAt": "2016-07-27T13:21:27.938Z",
+        "id": 6,
+        "list": 2
+      },
+      {
+        "todo": "Get ready",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:39.121Z",
+        "updatedAt": "2016-07-27T13:21:39.210Z",
+        "id": 7,
+        "list": 3
+      },
+      {
+        "todo": "Or get lost",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:44.067Z",
+        "updatedAt": "2016-07-27T13:21:44.151Z",
+        "id": 8,
+        "list": 3
+      },
+      {
+        "todo": "Fake it",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:51.295Z",
+        "updatedAt": "2016-07-27T13:21:51.380Z",
+        "id": 9,
+        "list": 3
+      },
+      {
+        "todo": "Or real it",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:55.689Z",
+        "updatedAt": "2016-07-27T13:21:55.778Z",
+        "id": 10,
+        "list": 3
+      },
+      {
+        "todo": "Wait, what?",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:21:59.777Z",
+        "updatedAt": "2016-07-27T13:21:59.862Z",
+        "id": 11,
+        "list": 3
+      },
+      {
+        "todo": "I just need to add",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:09.713Z",
+        "updatedAt": "2016-07-27T13:22:09.802Z",
+        "id": 12,
+        "list": 4
+      },
+      {
+        "todo": "A couple",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:12.812Z",
+        "updatedAt": "2016-07-27T13:22:12.899Z",
+        "id": 13,
+        "list": 4
+      },
+      {
+        "todo": "More items",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:16.627Z",
+        "updatedAt": "2016-07-27T13:22:16.712Z",
+        "id": 14,
+        "list": 5
+      },
+      {
+        "todo": "For the example",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:20.630Z",
+        "updatedAt": "2016-07-27T13:22:20.718Z",
+        "id": 15,
+        "list": 5
+      },
+      {
+        "todo": "And",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:24.077Z",
+        "updatedAt": "2016-07-27T13:22:24.165Z",
+        "id": 16,
+        "list": 5
+      },
+      {
+        "todo": "Done!",
+        "done": false,
+        "user": 3,
+        "createdAt": "2016-07-27T13:22:26.759Z",
+        "updatedAt": "2016-07-27T13:22:26.845Z",
+        "id": 17,
+        "list": 5
+      }
+    ],
+    "user": [
+      {
+        "username": "demo",
+        "email": null,
+        "password": "$2a$10$XhI9XWG9kEeylSddpgdzPuwpkVsK60n9MXv1KxOYtFgKEl4pOl3oO",
+        "createdAt": "2016-06-01T14:07:17.372Z",
+        "updatedAt": "2016-06-01T14:08:41.333Z",
+        "id": 1
+      },
+      {
+        "username": "user",
+        "email": null,
+        "password": "$2a$10$HpHYS5JbHJen43r0dRk96OJzpwR2Dkp.5AK90usUDihzZE2io6sb.",
+        "createdAt": "2016-06-01T14:12:31.094Z",
+        "updatedAt": "2016-06-01T14:12:31.094Z",
+        "id": 2
+      },
+      {
+        "username": "example",
+        "email": null,
+        "password": "$2a$10$Zy.D1BuzkOvzyhGHhlw4MeaADmtKyyUwaYkpg8VhYKxA33tX/XDhW",
+        "createdAt": "2016-07-27T13:12:23.505Z",
+        "updatedAt": "2016-07-27T13:12:23.505Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "list": {
+      "name": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user",
+        "index": true
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "todo": {
+      "todo": {
+        "type": "string"
+      },
+      "done": {
+        "type": "boolean",
+        "index": true
+      },
+      "list": {
+        "type": "integer",
+        "model": "list",
+        "foreignKey": true,
+        "alias": "list"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "list": {
+      "id": 5
+    },
+    "todo": {
+      "id": 17
+    },
+    "user": {
+      "id": 3
+    }
+  }
+}
