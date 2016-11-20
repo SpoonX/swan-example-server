@@ -2,6 +2,9 @@
   "name": "swan-example-server",
   "version": "0.0.2",
   "description": "An example project to demonstrate several high-level components provided by SpoonX.",
+  "engines": {
+    "node": "6.9.1"
+  },
   "keywords": [
     "aurelia",
     "todo",
