@@ -18,6 +18,28 @@
  * For more information on configuration, check out:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.connections.html
  */
+var env         = process.env;
+var credentials = {
+  adapter           : 'sails-mysql',
+  host              : env.DB_HOSTNAME || 'localhost',
+  user              : env.DB_USERNAME || 'root',
+  password          : env.DB_PASSWORD || '',
+  database          : env.DB_DATABASE || 'swan',
+  pool              : true,
+  connectionLimit   : env.DB_CONNECTIONS || 5,
+  waitForConnections: true
+};
+
+if (env.CLEARDB_DATABASE_URL) {
+  const url            = require('url'); // Already global, just here because pretty.
+  let stringParts      = url.parse(env.CLEARDB_DATABASE_URL);
+  let authParts        = stringParts.auth.split(':');
+  credentials.host     = stringParts.hostname;
+  credentials.port     = stringParts.port || 3306;
+  credentials.user     = authParts[0];
+  credentials.password = authParts[1];
+  credentials.database = stringParts.pathname.substr(1);
+}
 
 module.exports.connections = {
 
@@ -32,21 +54,7 @@ module.exports.connections = {
     adapter: 'sails-disk'
   },
 
-  /***************************************************************************
-  *                                                                          *
-  * MySQL is the world's most popular relational database.                   *
-  * http://en.wikipedia.org/wiki/MySQL                                       *
-  *                                                                          *
-  * Run: npm install sails-mysql                                             *
-  *                                                                          *
-  ***************************************************************************/
-  mysqlAdapter: {
-    adapter: 'sails-mysql',
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'todo'
-  },
+  mysqlServer: credentials,
 
   /***************************************************************************
   *                                                                          *

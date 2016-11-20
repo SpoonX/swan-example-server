@@ -1,0 +1,29 @@
+{
+  "name": "swan-example",
+  "scripts": {
+  },
+  "env": {
+    "HEROKU_APP_NAME": {"required": true},
+    "CLEARDB_DATABASE_URL": {"required": true},
+    "DB_CONNECTION": {"required": true},
+    "DB_CONNECTIONS": {"required": true},
+    "DB_MIGRATE": {"required": true},
+    "LOG_LEVEL": {"required": true},
+    "NODE_ENV": {"required": true},
+    "GITHUB_BUILD_TOKEN": {"required": true}
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    "cleardb:ignite"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

@@ -9,6 +9,8 @@
  * http://sailsjs.org/#!/documentation/concepts/ORM
  */
 
+var env = process.env;
+
 module.exports.models = {
 
   /***************************************************************************
@@ -17,7 +19,7 @@ module.exports.models = {
   * connections (see `config/connections.js`)                                *
   *                                                                          *
   ***************************************************************************/
-  connection: 'localDiskDb',
+  connection: env.DB_CONNECTION || 'localDiskDb',
 
   /***************************************************************************
   *                                                                          *
@@ -27,5 +29,6 @@ module.exports.models = {
   * See http://sailsjs.org/#!/documentation/concepts/ORM/model-settings.html  *
   *                                                                          *
   ***************************************************************************/
-  migrate: 'alter'
+
+  migrate: env.DB_MIGRATE || 'alter'
 };
