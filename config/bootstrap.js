@@ -11,6 +11,12 @@
 
 module.exports.bootstrap = function(cb) {
 
+  User.findOne({username: 'example'}).then(foundUser => {
+    if (!foundUser) {
+      return User.create({username: 'example', password: 'example'}).then(created => {});
+    }
+  });
+
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
   cb();
