@@ -24,7 +24,7 @@ var credentials = {
   host              : env.DB_HOSTNAME || 'localhost',
   user              : env.DB_USERNAME || 'root',
   password          : env.DB_PASSWORD || '',
-  database          : env.DB_DATABASE || 'connected',
+  database          : env.DB_DATABASE || 'swan',
   pool              : true,
   connectionLimit   : env.DB_CONNECTIONS || 5,
   waitForConnections: true
