@@ -31,9 +31,9 @@ var credentials = {
 };
 
 if (env.CLEARDB_DATABASE_URL) {
-  const url            = require('url'); // Already global, just here because pretty.
-  let stringParts      = url.parse(env.CLEARDB_DATABASE_URL);
-  let authParts        = stringParts.auth.split(':');
+  var url            = require('url'); // Already global, just here because pretty.
+  var stringParts      = url.parse(env.CLEARDB_DATABASE_URL);
+  var authParts        = stringParts.auth.split(':');
   credentials.host     = stringParts.hostname;
   credentials.port     = stringParts.port || 3306;
   credentials.user     = authParts[0];
